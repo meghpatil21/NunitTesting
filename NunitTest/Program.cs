@@ -13,7 +13,11 @@
             {
                 case 1:VendingMachine.NotesReturn();
                     break;
+                case 2:DayofWeeks.DayWeek();
+                    break;
                 case 3: TempConversion.Conversion();
+                    break;
+                case 4: MonthlyPayment.MonthPay();
                     break;
                 default: Console.WriteLine("Invalid Choice");
                     break;
